@@ -6,7 +6,7 @@ As some stuff described on Jorges blog is deprecated (e.g. the 'xargo' tool is n
 
 ## Install
 
-This is for ubuntu linux, for other operating system you'll have to find a way to install the gcc-arm toolchain, openocd and git
+This is for ubuntu linux, for other operating systems you'll have to find a way to install the gcc-arm toolchain, openocd and git
 
     sudo apt install gcc-arm-none-eabi gdb-arm-none-eabi openocd git-core # Install dependencies
 
