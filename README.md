@@ -1,6 +1,8 @@
 # rust_on_stm32f3
 
-This is the minimal project I could produce to get starting on embedded rust. Youll need a STM32F3DISCOVERY development board (https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F3DISCOVERY/497-13192-ND)
+This is a minimal project to get starting on rust for microcontrollers. Youll need a STM32F3DISCOVERY development board (https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F3DISCOVERY/497-13192-ND). It's completely based on the work of Jorge Aparicio (http://blog.japaric.io). Read this blog to learn more.
+
+As some stuff described on Jorges blog is deprecated (e.g. the 'xargo' tool is no longer needed) I created something that works today as a starting point. It could break tomorrow.
 
 ## Install
 
