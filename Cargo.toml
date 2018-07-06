@@ -1,0 +1,21 @@
+[package]
+name = "rust_on_stm32f3"
+version = "0.1.0"
+authors = ["Rick Pannen <rick@thinventions.de>"]
+
+[profile.release]
+lto = true
+codegen-units = 1
+debug = true
+
+[dependencies]
+f3 = "0.6.1"
+
+[dependencies.cortex-m]
+version = "0.5.0"
+
+[dependencies.cortex-m-rt]
+version = "0.5.0"
+
+[dependencies.panic-semihosting]
+version = "0.3.0"
