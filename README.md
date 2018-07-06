@@ -27,4 +27,4 @@ To flash the binary to an attached STM32F3 board:
 
     cargo run
 
-This code flashes all leds and stops when you turn the board.
+This code flashes all leds and stops when you tilt the board.
