@@ -9,7 +9,6 @@ As some stuff described on Jorges blog is deprecated (e.g. the 'xargo' tool is n
 This is for ubuntu linux, for other operating system you'll have to find a way to install the gcc-arm toolchain, openocd and git
 
     sudo apt install gcc-arm-none-eabi gdb-arm-none-eabi openocd git-core # Install dependencies
-    echo "set auto-load safe-path /" >> ~/.gdbinit # Allow to load local gdbinit files
 
     curl https://sh.rustup.rs -sSf | sh # Install rustup
 
@@ -18,12 +17,11 @@ This is for ubuntu linux, for other operating system you'll have to find a way t
     rustup default nightly # Switch to rust nightly
     rustup target add thumbv7em-none-eabihf # Intall the standard lib for arm
 
-    git clone https://github.com/RickP/rust_on_stm32f3.git # Check out the repo
+    git clone https://github.com/RickP/rust_on_stm32f3.git # Check out this repo
     cd rust_on_stm32f3 # Change to the project root
     cargo build # Compile to the project
 
 ## Run on the STM32F3 discovery board
-
 
 To flash the binary to an attached STM32F3 board:
 
