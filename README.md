@@ -22,12 +22,12 @@ This is for ubuntu linux, for other operating system you'll have to find a way t
 
 ## Run on the STM32F3 discovery board
 
-On one terminal:
+Start the openocd server on one terminal:
 
     openocd -f interface/stlink-v2.cfg -f target/stm32f3x.cfg
    
-On another terminal (in project root):
+Flash the binary via gdb on another terminal (in project root):
 
     cargo run
    
-The code will be flashed to the board and the controller is halted. Enter 'c' to run the code.
+The code will be programmed to the board and the controller is halted. Enter 'c' to run the code.
