@@ -1,12 +1,12 @@
 [target.thumbv7em-none-eabi]
-runner = 'arm-none-eabi-gdb'
+runner = "./flash_with_openocd.sh"
 rustflags = [
   "-C", "link-arg=-Wl,-Tlink.x",
   "-C", "link-arg=-nostartfiles",
 ]
 
 [target.thumbv7em-none-eabihf]
-runner = 'arm-none-eabi-gdb'
+runner = "./flash_with_openocd.sh"
 rustflags = [
   "-C", "link-arg=-Wl,-Tlink.x",
   "-C", "link-arg=-nostartfiles",
@@ -14,4 +14,3 @@ rustflags = [
 
 [build]
 target = "thumbv7em-none-eabihf"
-
