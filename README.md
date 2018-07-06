@@ -4,7 +4,7 @@ This is the minimal project I could produce to get starting on embedded rust.
 
 ## Install
 
-On Linux:
+This is for ubuntu linux, for other operating system you'll have to find a way to install the gcc-arm toolchain, openocd and git
 
    sudo apt install gcc-arm-none-eabi gdb-arm-none-eabi openocd git-core # Install dependencies
    echo "set auto-load safe-path /" >> ~/.gdbinit # Allow to load local gdbinit files
