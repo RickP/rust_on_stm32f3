@@ -1,6 +1,6 @@
 # rust_on_stm32f3
 
-This is the minimal project I could produce to get starting on embedded rust.
+This is the minimal project I could produce to get starting on embedded rust. Youll need a STM32F3DISCOVERY development board (https://www.digikey.com/product-detail/en/stmicroelectronics/STM32F3DISCOVERY/497-13192-ND)
 
 ## Install
 
